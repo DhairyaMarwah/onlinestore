@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - RedStore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        body{
+            background: #001923;
+        }
+        nav ul li a{
+            color: #fff;
+        }
+        .cart-whitechange img{
+            filter: brightness(0) invert(1);
+        }
+        .menu-icon {
+            filter: brightness(0) invert(1);
+        }
+        .uppercase{
+            text-transform: uppercase;
+            /* font-size: 20px; */
+            color: #ff523b;
+        }
+        .logo a{
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        @media only screen and (max-width:800px){
+            nav ul li a{
+                color: #000;
+            }
+        }
+    </style>
+ </head>
+
+    <body>
+    
+        <div class="container temp-color">
+            <div class="navbar">
+                <div class="logo">
+                    <!-- <a href="index.html"> <img src="images/logo-white.png"  width="125px" alt="" /></a> -->
+                    <a href="index.html"> <b>LOGO</b> </a>
+                    
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html" class="cool-link">Home</a></li>
+                        <li><a href="products.html" class="cool-link">Products</a></li>
+                        <li><a href="#" class="cool-link">About</a></li>
+                        <li><a href="contact.html" class="cool-link uppercase"  > Contact </a></li>
+                        <li><a href="account.html" class="cool-link">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html" class="cart-whitechange" > <img src="images/cart.png" width="30px " height="30px" alt="Cart" /></a>
+                <img class="menu-icon" onclick="menutoggle()" src="images/menu.png"/>
+            </div>
+ 
+        </div>
+        
+
+     <section>
+       <div class="contact-container">
+           <h2>Contact Us</h2>
+        <div class="row100">
+           <div class="column">
+              <div class="inputbox">
+                  <input type="text" required="required">
+                  <span class="text">First Name</span>
+                  <span class="line"></span>
+              </div>
+           </div>
+           <div class="column">
+              <div class="inputbox">
+                  <input type="text" required="required">
+                  <span class="text">Last Name</span>
+                  <span class="line"></span>
+              </div>
+           </div>
+        </div>
+        <div class="row100">
+           <div class="column">
+              <div class="inputbox">
+                  <input type="text" required="required">
+                  <span class="text">Email</span>
+                  <span class="line"></span>
+              </div>
+           </div>
+           <div class="column">
+              <div class="inputbox">
+                  <input type="text" required="required">
+                  <span class="text">Phone no.</span>
+                  <span class="line"></span>
+              </div>
+           </div>
+        </div>
+        
+        <div class="row100">
+            <div class="column">
+                <div class="inputbox textarea">
+                    <textarea required="required"></textarea>
+                    <span class="text">Type Your Message here</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="column">
+                <input  type="submit" value="send">
+            </div>
+        </div>
+    </div>   
+
+
+     </section>
+
+
+
+
+
+
+
+     <!-- ----Footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS Mobile phones</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <!-- <a href="index.html"> <img src="images/logo-white.png" alt=""></a> -->
+                    <a href="index.html"> <b>LOGO</b> </a>
+                    <p>Our purpose is to sustainably make the Pleasure and Benefits of SPorts Accesible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; Dhairya Marwah | All Rights Reserved</p>
+        </div>
+     </div>
+
+     <script src="script.js"></script>
+    
+    </body>
+
+</html>
